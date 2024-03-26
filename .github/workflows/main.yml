@@ -22,7 +22,7 @@ jobs:
     
     - name: Build Docker image
       run: |
-        docker build -t <your-acr-name>.azurecr.io/<image-name>:latest .
+        docker build -t kondensmelkcr.azurecr.io/nginx-image:v2 .
     
     - name: Push Docker image to Azure Container Registry
       run: |
