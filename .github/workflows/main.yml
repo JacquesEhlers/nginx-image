@@ -26,4 +26,4 @@ jobs:
     
     - name: Push Docker image to Azure Container Registry
       run: |
-        docker push kondensmelkcr.azurecr.io/nginx-image:v2
+        docker push kondensmelkcr.azurecr.io/nginx-image:v3
